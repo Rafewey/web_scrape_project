@@ -2,7 +2,8 @@ from urllib.request import urlopen
 from bs4 import BeautifulSoup
 
 #Creating a txt file to write on
-f = open("/home/rafewey/Desktop/web_scrape_project/scrapped_info.txt", "w+")
+#f = open("scrapped_info.txt", "w+")
+f = open("scrapped_info.txt", "w+")
 
 #Grabbing the page
 url = "http://quotes.toscrape.com/"
